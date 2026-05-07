@@ -208,3 +208,31 @@
     @apply font-sans antialiased bg-background text-foreground;
   }
 }
+
+@media print {
+  @page {
+    margin: 0.75in;
+    size: A4;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  .hidden.print\:block,
+  .print\:block {
+    display: block !important;
+  }
+
+  .print-invoice {
+    display: block !important;
+    padding: 0;
+    max-width: 100%;
+  }
+}

@@ -9,6 +9,8 @@ export const invoicesTable = pgTable("invoices", {
   customerName: text("customer_name").notNull(),
   customerEmail: text("customer_email"),
   customerAddress: text("customer_address"),
+  staffId: integer("staff_id"),
+  staffName: text("staff_name"),
   status: text("status").notNull().default("draft"), // draft | sent | paid | overdue
   subtotal: numeric("subtotal", { precision: 10, scale: 2 }).notNull().default("0"),
   taxRate: numeric("tax_rate", { precision: 5, scale: 2 }).notNull().default("0"),
