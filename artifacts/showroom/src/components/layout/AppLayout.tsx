@@ -5,7 +5,8 @@ import {
   Package, 
   ShoppingCart, 
   Users, 
-  UserCircle 
+  UserCircle,
+  Receipt
 } from "lucide-react";
 
 export function Sidebar() {
@@ -16,6 +17,7 @@ export function Sidebar() {
     { name: "Products", href: "/products", icon: Package },
     { name: "Orders", href: "/orders", icon: ShoppingCart },
     { name: "Customers", href: "/customers", icon: Users },
+    { name: "Billing", href: "/billing", icon: Receipt },
     { name: "Staff", href: "/staff", icon: UserCircle },
   ];
 

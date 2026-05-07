@@ -9,6 +9,7 @@ import Products from "./pages/Products";
 import Orders from "./pages/Orders";
 import Customers from "./pages/Customers";
 import Staff from "./pages/Staff";
+import Billing from "./pages/Billing";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +22,7 @@ function Router() {
         <Route path="/orders" component={Orders} />
         <Route path="/customers" component={Customers} />
         <Route path="/staff" component={Staff} />
+        <Route path="/billing" component={Billing} />
         <Route component={NotFound} />
       </Switch>
     </AppLayout>

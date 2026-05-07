@@ -6,6 +6,7 @@ import customersRouter from "./customers";
 import ordersRouter from "./orders";
 import staffRouter from "./staff";
 import dashboardRouter from "./dashboard";
+import billingRouter from "./billing";
 
 const router: IRouter = Router();
 
@@ -16,5 +17,6 @@ router.use(customersRouter);
 router.use(ordersRouter);
 router.use(staffRouter);
 router.use(dashboardRouter);
+router.use(billingRouter);
 
 export default router;
