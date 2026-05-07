@@ -1,5 +1,5 @@
 import { Router, type IRouter } from "express";
-import { eq, sql, desc, and, ilike, or } from "drizzle-orm";
+import { eq, sql, desc, and, ilike, inArray } from "drizzle-orm";
 import { db, invoicesTable, invoiceItemsTable, customersTable, productsTable, staffTable } from "@workspace/db";
 
 const router: IRouter = Router();
@@ -188,7 +188,7 @@ router.post("/billing/invoices", async (req, res): Promise<void> => {
   let productMap = new Map<number, { name: string; sku: string }>();
   if (productIds.length > 0) {
     const products = await db.select({ id: productsTable.id, name: productsTable.name, sku: productsTable.sku })
-      .from(productsTable).where(sql`${productsTable.id} = ANY(${productIds}::int[])`);
+      .from(productsTable).where(inArray(productsTable.id, productIds));
     productMap = new Map(products.map((p) => [p.id, p]));
   }
 
