@@ -1,0 +1,26 @@
+{
+  "name": "showroom-pro-backend",
+  "version": "1.0.0",
+  "description": "Showroom Pro - Backend API",
+  "license": "MIT",
+  "workspaces": [
+    "api-server",
+    "db"
+  ],
+  "scripts": {
+    "preinstall": "sh -c 'rm -f yarn.lock'",
+    "dev": "npm run dev -w api-server",
+    "start": "npm run start -w api-server",
+    "build": "npm run typecheck && npm run build --workspaces --if-present",
+    "typecheck:libs": "tsc --build",
+    "typecheck": "npm run typecheck:libs && npm run typecheck --workspaces --if-present"
+  },
+  "private": true,
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "typescript": "~5.9.2"
+  },
+  "dependencies": {
+    "multer": "^2.1.1"
+  }
+}

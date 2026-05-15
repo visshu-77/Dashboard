@@ -1,0 +1,1 @@
+{"version":3,"file":"orderListResponse.d.ts","sourceRoot":"","sources":["orderListResponse.ts"],"names":[],"mappings":"AAAA;;;;;;GAMG;AACH,OAAO,KAAK,EAAE,KAAK,EAAE,MAAM,SAAS,CAAC;AAErC,MAAM,WAAW,iBAAiB;IAChC,KAAK,EAAE,KAAK,EAAE,CAAC;IACf,KAAK,EAAE,MAAM,CAAC;IACd,IAAI,EAAE,MAAM,CAAC;IACb,KAAK,EAAE,MAAM,CAAC;CACf"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"orderWithItems.d.ts","sourceRoot":"","sources":["orderWithItems.ts"],"names":[],"mappings":"AAAA;;;;;;GAMG;AACH,OAAO,KAAK,EAAE,KAAK,EAAE,MAAM,SAAS,CAAC;AACrC,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,aAAa,CAAC;AAE7C,MAAM,MAAM,cAAc,GAAG,KAAK,GAAG;IACnC,KAAK,EAAE,SAAS,EAAE,CAAC;CACpB,CAAC"}
