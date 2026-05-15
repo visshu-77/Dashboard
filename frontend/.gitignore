@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS files
+.cursor/
+.local/
+.cache/
+
+# Browser & Network
+.cache/
+.parcel-cache/
+
+# Vite
+.vite/
+
+# Temporary files
+tmp/
+temp/

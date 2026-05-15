@@ -1,0 +1,51 @@
+name,sku,description,price,cost,stock,minStock,categoryId,categoryName,brand,imageUrl,isActive
+Laptop Pro 15,SKU-001,High-performance laptop with 15-inch display,1299.99,799.99,45,5,,Electronics,TechBrand,,true
+Wireless Mouse,SKU-002,Ergonomic wireless mouse with 2.4GHz connection,29.99,12.99,150,10,,Peripherals,PeripheralCorp,,true
+Mechanical Keyboard,SKU-003,RGB mechanical keyboard with Cherry MX switches,89.99,45.99,85,8,,Peripherals,KeyboardPro,,true
+USB-C Cable 2m,SKU-004,High-speed USB-C charging and data cable,14.99,5.99,300,20,,Cables & Power,CableTech,,true
+Monitor 27 inch,SKU-005,4K UHD 27-inch IPS monitor,399.99,199.99,25,3,,Electronics,DisplayMax,,true
+Webcam HD 1080p,SKU-006,Full HD 1080p webcam for streaming and conferencing,59.99,29.99,60,5,,Peripherals,CameraPro,,true
+Headphones Wireless,SKU-007,Active noise cancelling wireless headphones,199.99,99.99,40,4,,Peripherals,AudioMax,,true
+Phone Charger Fast,SKU-008,65W fast USB-C phone charger,34.99,14.99,120,10,,Cables & Power,ChargeFast,,true
+Laptop Cooling Pad,SKU-009,Aluminum laptop cooling pad with USB fan,44.99,22.99,75,8,,Electronics,CoolTech,,true
+External Hard Drive 1TB,SKU-010,Portable 1TB external hard drive SSD,89.99,45.99,110,10,,Cables & Power,StoragePro,,true
+Desk Lamp LED,SKU-011,Adjustable LED desk lamp with USB charging,49.99,24.99,95,8,,Office,LightMax,,true
+Phone Stand Adjustable,SKU-012,Adjustable phone stand for desk,12.99,5.99,200,15,,Office,HolderPro,,true
+Screen Protector Pack,SKU-013,Pack of 3 glass screen protectors,9.99,3.99,400,30,,Cables & Power,ProtectMax,,true
+Tablet 10 inch,SKU-014,10-inch tablet with 64GB storage,349.99,179.99,35,4,,Electronics,TabletPro,,true
+Smartwatch Fitness,SKU-015,Fitness smartwatch with heart rate monitor,149.99,74.99,65,6,,Electronics,WatchFit,,true
+Smartphone Case,SKU-016,Protective smartphone case with screen protector,19.99,8.99,250,20,,Cables & Power,CasePro,,true
+Portable Speaker,SKU-017,Bluetooth portable speaker with 360 sound,59.99,29.99,75,6,,Peripherals,SoundJam,,true
+HDMI Cable 2m,SKU-018,4K HDMI 2.1 cable 2 meters,12.99,4.99,350,25,,Cables & Power,CableTech,,true
+Microphone USB,SKU-019,USB condenser microphone for recording,79.99,39.99,50,5,,Peripherals,MicPro,,true
+Mouse Pad Large,SKU-020,Large gaming mouse pad 800x300mm,24.99,11.99,120,10,,Peripherals,GamingGear,,true
+Laptop Bag 15 inch,SKU-021,Professional laptop bag with compartments,49.99,24.99,80,6,,Office,BagPro,,true
+USB Hub 7 Port,SKU-022,7-port USB 3.0 hub with power adapter,34.99,16.99,95,8,,Cables & Power,HubTech,,true
+Docking Station,SKU-023,USB-C docking station with 6 ports,89.99,44.99,45,5,,Cables & Power,DockPro,,true
+Monitor Arm,SKU-024,Adjustable monitor desk arm mount,64.99,32.99,60,5,,Office,ArmMount,,true
+Keyboard Wrist Rest,SKU-025,Ergonomic keyboard wrist rest,19.99,9.99,150,12,,Peripherals,Ergonomic,,true
+Office Chair Gaming,SKU-026,Gaming office chair with lumbar support,249.99,129.99,30,3,,Office,ChairMax,,true
+Desk Organizer,SKU-027,Multi-compartment desk organizer holder,29.99,14.99,110,10,,Office,OrganizerPro,,true
+Pen Set Professional,SKU-028,Set of 10 professional pens,14.99,6.99,200,15,,Office,PenCorp,,true
+Notebook A4,SKU-029,100-page A4 ruled notebook,4.99,1.99,500,50,,Office,NotebookPro,,true
+Desk Calendar,SKU-030,Wooden desk calendar stand,9.99,4.99,180,15,,Office,CalendarPro,,true
+Graphics Tablet,SKU-031,Professional graphics drawing tablet 10x6,179.99,89.99,35,4,,Electronics,DrawPro,,true
+Stylus Pen,SKU-032,Digital stylus pen for drawing,39.99,19.99,90,8,,Peripherals,StyloPro,,true
+Document Scanner,SKU-033,Portable document scanner with ADF,299.99,149.99,20,2,,Electronics,ScanPro,,true
+Printer Wireless,SKU-034,Wireless color inkjet printer,149.99,74.99,25,3,,Electronics,PrintPro,,true
+Paper Ream A4,SKU-035,500-sheet A4 white printer paper,6.99,2.99,300,30,,Office,PaperCorp,,true
+Ink Cartridge Set,SKU-036,Set of 4 printer ink cartridges,24.99,11.99,150,15,,Cables & Power,InkMax,,true
+Toner Cartridge,SKU-037,High-yield toner cartridge black,34.99,16.99,100,10,,Cables & Power,TonerPro,,true
+Stapler Office,SKU-038,Heavy-duty office stapler,11.99,5.99,200,15,,Office,OfficePro,,true
+Tape Dispenser,SKU-039,Desktop tape dispenser with tape roll,7.99,3.99,250,20,,Office,TapePro,,true
+Paper Clip Box,SKU-040,Box of 100 paper clips assorted,2.99,1.19,500,50,,Office,ClipMax,,true
+Sticky Notes Pack,SKU-041,Pack of 12 sticky note pads,8.99,3.99,300,30,,Office,StickyMax,,true
+Pen Holder,SKU-042,Wooden desk pen holder organizer,14.99,7.99,160,12,,Office,HolderPro,,true
+File Folder Set,SKU-043,Set of 5 color file folders,9.99,4.99,250,20,,Office,FolderPro,,true
+Binder A4,SKU-044,2-ring A4 document binder,5.99,2.99,350,30,,Office,BinderMax,,true
+Shelf Unit Metal,SKU-045,3-tier metal storage shelf,59.99,29.99,40,4,,Office,ShelfPro,,true
+Filing Cabinet,SKU-046,4-drawer filing cabinet metal,129.99,64.99,15,2,,Office,FileCorp,,true
+Desk Pad Leather,SKU-047,Large leather desk pad protector,34.99,17.99,70,6,,Office,PadPro,,true
+Cable Organizer,SKU-048,5-pack cable management clips,9.99,4.99,300,25,,Cables & Power,OrganizeCorp,,true
+Power Strip 6 Outlet,SKU-049,6-outlet power strip surge protector,19.99,9.99,140,10,,Cables & Power,PowerMax,,true
+Extension Cord 10m,SKU-050,10-meter extension cord heavy-duty,24.99,11.99,95,8,,Cables & Power,CordPro,,true

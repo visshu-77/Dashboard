@@ -1,0 +1,22 @@
+{
+  "name": "showroom-pro-frontend",
+  "version": "1.0.0",
+  "description": "Showroom Pro - Admin Dashboard",
+  "license": "MIT",
+  "workspaces": [
+    "showroom",
+    "packages/*"
+  ],
+  "scripts": {
+    "preinstall": "sh -c 'rm -f yarn.lock'",
+    "dev": "npm run dev -w showroom",
+    "build": "npm run typecheck && npm run build -w showroom",
+    "serve": "npm run serve -w showroom",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "private": true,
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "typescript": "~5.9.2"
+  }
+}
